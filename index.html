@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Отдых в Фетхие с Гулей</title>
+  <title>Отдых в Фетхие</title>
   <style>
     body { margin: 0; font-family: 'Arial', sans-serif; background: #f0f8ff; color: #333; }
     header {
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
-      color: white; text-align: center; padding: 100px 20px;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: white; text-align: center; padding: 120px 20px;
     }
-    header h1 { font-size: 3em; text-shadow: 2px 2px 5px rgba(0,0,0,0.7); }
-    header p { font-size: 1.5em; text-shadow: 1px 1px 3px rgba(0,0,0,0.6); }
+    header h1 {
+      font-size: 3.5em; font-weight: 700;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+    }
+    header p {
+      font-size: 1.8em; font-weight: 600;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
     section { padding: 50px 20px; text-align: center; }
-    h2 { font-size: 2em; color: #2c3e50; margin-bottom: 20px; }
+    h2 { font-size: 2.2em; font-weight: 700; color: #1a2a40; margin-bottom: 20px; }
     .services, .excursions, .gallery { display: grid; gap: 20px; max-width: 1000px; margin: 0 auto; }
     .services, .excursions { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
     .gallery { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
@@ -27,8 +33,7 @@
       transition: transform 0.3s;
     }
     .gallery img:hover { transform: scale(1.05); }
-    footer { background: #2c3e50; color: white; text-align: center; padding: 20px; position: relative; }
-    /* Плавающие кнопки */
+    footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
     .floating-buttons {
       position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px;
     }
@@ -39,23 +44,12 @@
     }
     .floating-buttons a.telegram { background: #0088cc; }
     .floating-buttons a:hover { transform: scale(1.1); }
-
-    /* Большие кнопки под услугами */
-    .contact-buttons { margin-top: 30px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
-    .contact-buttons a {
-      display: inline-block; padding: 15px 25px; border-radius: 10px; font-size: 18px; color: white;
-      text-decoration: none; font-weight: bold; transition: transform 0.3s;
-    }
-    .contact-buttons a.whatsapp { background: #25D366; }
-    .contact-buttons a.telegram { background: #0088cc; }
-    .contact-buttons a:hover { transform: scale(1.05); }
   </style>
 </head>
 <body>
   <header>
-    <h1>🌴 Отдых в Фетхие с Гулей</h1>
-    <p>Средиземное и Эгейское моря ждут вас!</p>
-    <p>Трансфер • Аренда вилл • Экскурсии</p>
+    <h1>🌴🌴🌴 Отдых в Фетхие</h1>
+    <p>Средиземное и Эгейское море ждут вас</p>
   </header>
 
   <section>
@@ -64,12 +58,6 @@
       <div class="card">Трансфер из аэропорта ✈️</div>
       <div class="card">Аренда вилл в Фетхие 🏡</div>
       <div class="card">Индивидуальные экскурсии 🚐</div>
-    </div>
-
-    <!-- Новые кнопки связи -->
-    <div class="contact-buttons">
-      <a href="https://wa.me/905314558448" target="_blank" class="whatsapp">💬 Связаться в WhatsApp</a>
-      <a href="https://t.me/gulya_fethiye" target="_blank" class="telegram">✈️ Связаться в Telegram</a>
     </div>
   </section>
 
@@ -87,18 +75,25 @@
     <h2>📸 Галерея</h2>
     <div class="gallery">
       <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Море Фетхие">
+      <img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c" alt="Яхта в Фетхие">
       <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Вилла у моря">
-      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Интерьер виллы">
-      <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a" alt="Машина для трансфера">
-      <img src="https://images.unsplash.com/photo-1616789875220-d5e84a02fc80" alt="Минивэн для трансфера">
+    </div>
+  </section>
+
+  <section>
+    <h2>🗺️ Как добраться</h2>
+    <div style="max-width: 1000px; margin: 0 auto; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d126563.64381813406!2d28.695978287532954!3d36.80125203222261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x14bf6592d7b07f8f%3A0x1a2f68d5f6b6f5b5!2sDalaman%20Havaliman%C4%B1!3m2!1d36.7130556!2d28.7925!4m5!1s0x14c043c2a4f6c5a7%3A0x400b0c0a2f3dd90!2sFethiye!3m2!1d36.6218!2d29.1164!5e0!3m2!1sru!2str!4v1690211111111!5m2!1sru!2str"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
   </section>
 
   <footer>
-    <p>Свяжитесь с нами: WhatsApp / Telegram +90 531 455 8448 (Гуля)</p>
+    <p>Свяжитесь с нами: WhatsApp / Telegram +90 531 455 8448</p>
   </footer>
 
-  <!-- Плавающие кнопки -->
   <div class="floating-buttons">
     <a href="https://wa.me/905314558448" target="_blank">💬</a>
     <a href="https://t.me/gulya_fethiye" target="_blank" class="telegram">✈️</a>
