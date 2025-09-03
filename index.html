@@ -1,103 +1,89 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Отдых в Фетхие</title>
+  <title>Fethiye Transfer | Онлайн-трансферы</title>
+  <meta name="description" content="Трансферы в Фетхие – удобное и безопасное такси, бронирование онлайн.">
+  <meta name="keywords" content="Fethiye transfer, такси Фетхие, трансфер Даламан, Antalya airport transfer">
   <style>
-    body { margin: 0; font-family: 'Arial', sans-serif; background: #f0f8ff; color: #333; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: #f9f9f9;
+      color: #333;
+    }
     header {
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
-      color: white; text-align: center; padding: 120px 20px;
+      background: #2c3e50;
+      color: white;
+      padding: 30px 0;
     }
-    header h1 {
-      font-size: 3.5em; font-weight: 700;
-      text-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-    header p {
-      font-size: 1.8em; font-weight: 600;
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    p {
+      font-size: 1.2rem;
+      margin: 10px 0;
     }
-    section { padding: 50px 20px; text-align: center; }
-    h2 { font-size: 2.2em; font-weight: 700; color: #1a2a40; margin-bottom: 20px; }
-    .services, .excursions, .gallery { display: grid; gap: 20px; max-width: 1000px; margin: 0 auto; }
-    .services, .excursions { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-    .gallery { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
-    .card {
-      background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
+    section {
+      padding: 30px 15px;
+      max-width: 900px;
+      margin: 0 auto;
     }
-    .card:hover { transform: translateY(-5px); }
-    .gallery img {
-      width: 100%; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
+    .buttons {
+      margin-top: 30px;
     }
-    .gallery img:hover { transform: scale(1.05); }
-    footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
-    .floating-buttons {
-      position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px;
+    .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      margin: 10px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
     }
-    .floating-buttons a {
-      background: #25D366; color: white; padding: 15px; border-radius: 50%; text-align: center;
-      font-size: 20px; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      transition: transform 0.3s;
+    .btn:hover {
+      opacity: 0.8;
     }
-    .floating-buttons a.telegram { background: #0088cc; }
-    .floating-buttons a:hover { transform: scale(1.1); }
+    .whatsapp {
+      background-color: #25D366;
+    }
+    .telegram {
+      background-color: #0088cc;
+    }
   </style>
 </head>
 <body>
+  <!-- Шапка сайта -->
   <header>
-    <h1> Отдых в Фетхие</h1>
-    <p>Средиземное и Эгейское море ждут вас</p>
+    <h1>Fethiye Transfer</h1>
+    <p>Быстрое и удобное бронирование трансферов онлайн 🚖</p>
   </header>
 
+  <!-- Основное описание -->
   <section>
-    <h2>🚖 Наши услуги</h2>
-    <div class="services">
-      <div class="card">Трансфер из аэропорта ✈️</div>
-      <div class="card">Аренда вилл в Фетхие 🏡</div>
-      <div class="card">Индивидуальные экскурсии 🚐</div>
+    <h2>Наши услуги</h2>
+    <p>Мы предоставляем комфортные и безопасные трансферы в регионе Фетхие и из аэропортов Даламан и Анталия. 
+    Забронируйте поездку онлайн и наслаждайтесь отдыхом без лишних забот.</p>
+
+    <!-- Кнопки -->
+    <div class="buttons">
+      <!-- WhatsApp -->
+      <a href="https://wa.me/905314558448" target="_blank" class="btn whatsapp">
+        💬 Свяжитесь с нами в WhatsApp
+      </a>
+
+      <!-- Telegram -->
+      <a href="https://t.me/gulya_fethiye" target="_blank" class="btn telegram">
+        ✈ Свяжитесь с нами в Telegram
+      </a>
     </div>
   </section>
-
-  <section>
-    <h2>🛥️ Лучшие экскурсии</h2>
-    <div class="excursions">
-      <div class="card">⛵ Прогулка на яхте</div>
-      <div class="card">🌊 Голубая лагуна (Ölüdeniz)</div>
-      <div class="card">🦋 Долина бабочек</div>
-      <div class="card">🪂 Параглайдинг с Бабадаг</div>
-    </div>
-  </section>
-
-  <section>
-    <h2>📸 Галерея</h2>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Море Фетхие">
-      <img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c" alt="Яхта в Фетхие">
-      <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Вилла у моря">
-    </div>
-  </section>
-
-  <section>
-    <h2>🗺️ Как добраться</h2>
-    <div style="max-width: 1000px; margin: 0 auto; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d126563.64381813406!2d28.695978287532954!3d36.80125203222261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x14bf6592d7b07f8f%3A0x1a2f68d5f6b6f5b5!2sDalaman%20Havaliman%C4%B1!3m2!1d36.7130556!2d28.7925!4m5!1s0x14c043c2a4f6c5a7%3A0x400b0c0a2f3dd90!2sFethiye!3m2!1d36.6218!2d29.1164!5e0!3m2!1sru!2str!4v1690211111111!5m2!1sru!2str"
-        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
-  </section>
-
-  <footer>
-    <p>Свяжитесь с нами: WhatsApp / Telegram +90 531 455 8448</p>
-  </footer>
-
-  <div class="floating-buttons">
-    <a href="https://wa.me/905314558448" target="_blank">💬</a>
-    <a href="https://t.me/gulya_fethiye" target="_blank" class="telegram">✈️</a>
-  </div>
 </body>
 </html>
+
