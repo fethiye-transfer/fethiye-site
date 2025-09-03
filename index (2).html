@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отдых в Фетхие с Гулей</title>
+  <style>
+    body { margin: 0; font-family: 'Arial', sans-serif; background: #f0f8ff; color: #333; }
+    header {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      color: white; text-align: center; padding: 100px 20px;
+    }
+    header h1 { font-size: 3em; text-shadow: 2px 2px 5px rgba(0,0,0,0.7); }
+    header p { font-size: 1.5em; text-shadow: 1px 1px 3px rgba(0,0,0,0.6); }
+    section { padding: 50px 20px; text-align: center; }
+    h2 { font-size: 2em; color: #2c3e50; margin-bottom: 20px; }
+    .services, .excursions, .gallery { display: grid; gap: 20px; max-width: 1000px; margin: 0 auto; }
+    .services, .excursions { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    .gallery { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    .card {
+      background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .gallery img {
+      width: 100%; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover { transform: scale(1.05); }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 20px; position: relative; }
+    /* Плавающие кнопки */
+    .floating-buttons {
+      position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px;
+    }
+    .floating-buttons a {
+      background: #25D366; color: white; padding: 15px; border-radius: 50%; text-align: center;
+      font-size: 20px; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .floating-buttons a.telegram { background: #0088cc; }
+    .floating-buttons a:hover { transform: scale(1.1); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌴 Отдых в Фетхие с Гулей</h1>
+    <p>Трансфер • Аренда вилл • Экскурсии</p>
+  </header>
+
+  <section>
+    <h2>🚖 Наши услуги</h2>
+    <div class="services">
+      <div class="card">Трансфер из аэропорта ✈️</div>
+      <div class="card">Аренда вилл в Фетхие 🏡</div>
+      <div class="card">Индивидуальные экскурсии 🚐</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🛥️ Лучшие экскурсии</h2>
+    <div class="excursions">
+      <div class="card">⛵ Прогулка на яхте</div>
+      <div class="card">🌊 Голубая лагуна (Ölüdeniz)</div>
+      <div class="card">🦋 Долина бабочек</div>
+      <div class="card">🪂 Параглайдинг с Бабадаг</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📸 Галерея</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Море Фетхие">
+      <img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c" alt="Яхта в Фетхие">
+      <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Вилла у моря">
+    </div>
+  </section>
+
+  <footer>
+    <p>Свяжитесь с нами: WhatsApp / Telegram +90 531 455 8448 (Гуля)</p>
+  </footer>
+
+  <!-- Плавающие кнопки -->
+  <div class="floating-buttons">
+    <a href="https://wa.me/905314558448" target="_blank">💬</a>
+    <a href="https://t.me/gulya_fethiye" target="_blank" class="telegram">✈️</a>
+  </div>
+</body>
+</html>
